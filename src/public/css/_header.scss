@@ -1,0 +1,20 @@
+@charset "utf-8";
+#yx-header {
+  padding: 15px 0;
+  border-bottom: 3px solid #2e3092;
+
+  .yx-header-links {
+    margin-top: 35px;
+    margin-bottom: 0;
+
+    li {
+      padding-right: 35px;
+      padding-left: 35px;
+
+      a {
+        color: #3c3e99;
+        font-weight: 600;
+      }
+    }
+  }
+}
