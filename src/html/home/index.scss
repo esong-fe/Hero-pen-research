@@ -2,6 +2,7 @@
 
 %index-icon {
   background: url(images/index-icons.png) no-repeat;
+  margin: 0 auto;
 }
 
 // banner 里的向下白色箭头
@@ -12,11 +13,28 @@
   background-position: 0 0;
 }
 
+// 关于我们里的齿轮
 .gear {
   @extend %index-icon;
   width: 32px;
   height: 32px;
   background-position: -120px 0;
+}
+
+// 关于我们里的灯泡
+.light {
+  @extend %index-icon;
+  width: 39px;
+  height: 41px;
+  background-position: -200px 0;
+}
+
+// 关于我们里的金牌
+.gold {
+  @extend %index-icon;
+  width: 39px;
+  height: 34px;
+  background-position: -160px 0;
 }
 
 .yx-index-banner {
@@ -47,4 +65,51 @@
   border-radius: 0;
   font-size: 14px;
   padding: 14px 69px;
+}
+
+%section {
+  padding-top: 60px;
+  padding-bottom: 115px;
+
+  h2 {
+    display: inline-block;
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+  }
+
+  p {
+    color: #7e8287;
+    line-height: 1.6;
+  }
+}
+
+#index-about {
+  @extend %section;
+
+  h2 {
+    color: #0072c6;
+    border-color: #0072c6;
+  }
+
+  h4 {
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .about-des {
+    margin-bottom: 80px;
+  }
+
+  .col-sm-4 {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-right: 1px solid #d9dbdb;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
 }
