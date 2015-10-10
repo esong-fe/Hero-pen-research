@@ -1,8 +1,43 @@
 @charset "utf-8";
+
+%index-icon {
+  background: url(images/index-icons.png) no-repeat;
+}
+
+// banner 里的向下白色箭头
+.down-arrow {
+  @extend %index-icon;
+  width: 107px;
+  height: 24px;
+  background-position: 0 0;
+}
+
+.gear {
+  @extend %index-icon;
+  width: 32px;
+  height: 32px;
+  background-position: -120px 0;
+}
+
 .yx-index-banner {
   height: 600px;
   color: #fff;
-  background-color: grey;
+  background: url(images/banner.jpg) no-repeat center center;
+
+  .yx-banner-sub {
+    font-size: 30px;
+    padding-top: 165px;
+  }
+
+  .yx-banner-main {
+    font-size: 68px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+  }
+
+  .down-arrow {
+    margin-bottom: 50px;
+  }
 }
 
 .yx-index-more {
