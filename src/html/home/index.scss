@@ -37,6 +37,30 @@
   background-position: -160px 0;
 }
 
+// 关于我们里的分析图标
+.broad {
+  @extend %index-icon;
+  width: 34px;
+  height: 23px;
+  background-position: -320px 0;
+}
+
+// 关于我们里的天平的图标
+.auncel {
+  @extend %index-icon;
+  width: 30px;
+  height: 27px;
+  background-position: -250px 0;
+}
+
+// 笔的图标
+.pen {
+  @extend %index-icon;
+  width: 28px;
+  height: 22px;
+  background-position: -290px 0;
+}
+
 .yx-index-banner {
   height: 600px;
   color: #fff;
@@ -72,11 +96,13 @@
   padding-bottom: 115px;
 
   h2 {
-    display: inline-block;
     font-size: 36px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid;
+    margin-bottom: 50px;
+
+    span {
+      padding-bottom: 20px;
+      border-bottom: 1px solid;
+    }
   }
 
   p {
@@ -92,7 +118,7 @@
     height: 45px;
   }
 
-  h2 {
+  h2 span {
     color: #0072c6;
     border-color: #0072c6;
   }
@@ -122,9 +148,32 @@
   @extend %section;
   background: url(images/info-bg.jpg) no-repeat center center;
 
-  h2 {
+  h2 span {
     color: #fff;
     border-color: #fff;
+  }
+}
+
+#three-center {
+  @extend %section;
+
+  h2 span {
+    color: #0072c6;
+    border-color: #70a5cc;
+  }
+
+  ul {
+    margin-bottom: 0;
+
+    li {
+      margin-top: 20px;
+      margin-bottom: 35px;
+    }
+
+    .broad, .pen, .auncel {
+      position: relative;
+      top: 6px;
+    }
   }
 }
 
