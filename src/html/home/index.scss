@@ -88,6 +88,10 @@
 #index-about {
   @extend %section;
 
+  .about-icon {
+    height: 45px;
+  }
+
   h2 {
     color: #0072c6;
     border-color: #0072c6;
