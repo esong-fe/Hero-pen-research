@@ -1,0 +1,61 @@
+@charset "utf-8";
+%index-icon {
+  background: url(../images/index-icons.png) no-repeat;
+  margin: 0 auto;
+}
+
+// banner 里的向下白色箭头
+.down-arrow {
+  @extend %index-icon;
+  width: 107px;
+  height: 24px;
+  background-position: 0 0;
+}
+
+// 关于我们里的齿轮
+.gear {
+  @extend %index-icon;
+  width: 32px;
+  height: 32px;
+  background-position: -120px 0;
+}
+
+// 关于我们里的灯泡
+.light {
+  @extend %index-icon;
+  width: 39px;
+  height: 41px;
+  background-position: -200px 0;
+}
+
+// 关于我们里的金牌
+.gold {
+  @extend %index-icon;
+  width: 39px;
+  height: 34px;
+  background-position: -160px 0;
+}
+
+// 关于我们里的分析图标
+.broad {
+  @extend %index-icon;
+  width: 34px;
+  height: 23px;
+  background-position: -320px 0;
+}
+
+// 关于我们里的天平的图标
+.auncel {
+  @extend %index-icon;
+  width: 30px;
+  height: 27px;
+  background-position: -250px 0;
+}
+
+// 笔的图标
+.pen {
+  @extend %index-icon;
+  width: 28px;
+  height: 22px;
+  background-position: -290px 0;
+}
