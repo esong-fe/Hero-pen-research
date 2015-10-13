@@ -1,7 +1,7 @@
 @charset "utf-8";
 %index-icon {
+  display: inline-block;
   background: url(../images/index-icons.png) no-repeat;
-  margin: 0 auto;
 }
 
 // banner 里的向下白色箭头
@@ -58,4 +58,18 @@
   width: 28px;
   height: 22px;
   background-position: -290px 0;
+}
+
+.arrow-up, .arrow-down {
+  @extend %index-icon;
+  width: 26px;
+  height: 13px;
+}
+
+.arrow-up {
+  background-position: -400px 0;
+}
+
+.arrow-down {
+  background-position: -400px -20px;
 }
