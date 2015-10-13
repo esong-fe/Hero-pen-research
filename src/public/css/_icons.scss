@@ -73,3 +73,10 @@
 .arrow-down {
   background-position: -400px -20px;
 }
+
+.close-icon {
+  @extend %index-icon;
+  width: 25px;
+  height: 23px;
+  background-position: -430px 0;
+}
