@@ -1,7 +1,6 @@
-/build/
 /node_modules/
 /src/vendor/
-**/*.js
+/src/**/*.js
 /src/**/*.css
-**/*.map
+/**/*.map
 /typings/
