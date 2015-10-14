@@ -18,6 +18,8 @@ body {
 #product-images {
   @extend %container;
   position: relative;
+  margin-top: 65px;
+  margin-bottom: 105px;
 
   .big-image-container {
     @extend %image-container;
@@ -43,5 +45,30 @@ body {
         height: $height;
       }
     }
+  }
+}
+
+#product-detail {
+  @extend %container;
+  padding: 90px 160px 150px 100px;
+
+  img {
+    float: right;
+  }
+
+  h1 {
+    color: #0072c6;
+    margin-bottom: 50px;
+  }
+
+  .product-info {
+    line-height: 4;
+    border-bottom: 1px solid #0072c6;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
+  p {
+    line-height: 1.8;
   }
 }
