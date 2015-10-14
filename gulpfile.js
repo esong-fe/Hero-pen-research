@@ -50,7 +50,11 @@ gulp.task( 'html' , [ 'clean' ] , function () {
   return gulp.src( paths.html , { base : SRC } )
     .pipe( minifyHTML( {
       removeComments : true ,
-      collapseWhitespace : true
+      collapseWhitespace : true ,
+      minifyJS : true ,
+      minifyCSS : true ,
+      removeScriptTypeAttributes : true ,
+      removeStyleLinkTypeAttributes : true
     } ) )
     .pipe( gulp.dest( DIST ) );
 } );
