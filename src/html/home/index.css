@@ -1,0 +1,137 @@
+.yx-index-banner {
+  height: 600px;
+  color: #fff;
+  background: url(images/banner.jpg) no-repeat center center; }
+  .yx-index-banner .yx-banner-sub {
+    font-size: 30px;
+    padding-top: 165px; }
+  .yx-index-banner .yx-banner-main {
+    font-size: 68px;
+    margin-top: 30px;
+    margin-bottom: 75px; }
+  .yx-index-banner .down-arrow {
+    margin-bottom: 50px; }
+
+.yx-index-more {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 14px 69px; }
+
+#index-about, #index-info, #three-center, #news {
+  padding-top: 60px;
+  padding-bottom: 115px; }
+  #index-about h2, #index-info h2, #three-center h2, #news h2 {
+    font-size: 36px;
+    margin-bottom: 50px; }
+    #index-about h2 span, #index-info h2 span, #three-center h2 span, #news h2 span {
+      padding-bottom: 20px;
+      border-bottom: 1px solid; }
+  #index-about p, #index-info p, #three-center p, #news p {
+    color: #7e8287;
+    line-height: 1.6; }
+
+#index-about .about-icon {
+  height: 45px; }
+#index-about h2 span {
+  color: #0072c6;
+  border-color: #0072c6; }
+#index-about h4 {
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-bottom: 30px; }
+#index-about .about-des {
+  margin-bottom: 80px; }
+#index-about .col-sm-4 {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  border-right: 1px solid #d9dbdb; }
+  #index-about .col-sm-4:last-child {
+    border-right: none; }
+
+#index-info {
+  background: url(images/info-bg.jpg) no-repeat center center; }
+  #index-info h2 span {
+    color: #fff;
+    border-color: #fff; }
+  #index-info .bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #5f61ac;
+    border-radius: 5px;
+    width: 1010px;
+    height: 554px; }
+    #index-info .bx-wrapper li {
+      height: 554px;
+      padding: 25px 50px; }
+      #index-info .bx-wrapper li .yx-product-name, #index-info .bx-wrapper li .yx-product-des {
+        position: absolute;
+        bottom: 30px;
+        left: 50px;
+        right: 25px; }
+      #index-info .bx-wrapper li .yx-product-name {
+        color: #0072c6;
+        border-bottom: 1px solid #77b4e1;
+        padding-bottom: 10px;
+        font-size: 21px; }
+      #index-info .bx-wrapper li .yx-product-des {
+        display: none;
+        background-color: #4c9cd7;
+        padding: 20px 30px; }
+        #index-info .bx-wrapper li .yx-product-des, #index-info .bx-wrapper li .yx-product-des p {
+          color: #fff !important; }
+        #index-info .bx-wrapper li .yx-product-des h3 {
+          border-bottom: 1px solid #9dc8e8;
+          padding-bottom: 10px; }
+
+#three-center h2 span {
+  color: #0072c6;
+  border-color: #70a5cc; }
+#three-center ul {
+  margin-bottom: 0; }
+  #three-center ul li {
+    margin-top: 20px;
+    margin-bottom: 35px; }
+  #three-center ul .broad, #three-center ul .pen, #three-center ul .auncel {
+    position: relative;
+    top: 6px; }
+
+#news {
+  background-color: #f0efeb; }
+  #news .news-container {
+    border-top: 6px solid #0072c6;
+    position: relative;
+    width: 95%;
+    margin-bottom: 40px; }
+    #news .news-container img {
+      width: 100%; }
+    #news .news-container .news-des {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%; }
+      #news .news-container .news-des .news-category {
+        display: inline-block;
+        color: #fff;
+        background-color: #0072c6;
+        padding: 15px 20px; }
+      #news .news-container .news-des .news-bottom {
+        display: block;
+        background-color: rgba(37, 37, 37, 0.8);
+        padding: 20px; }
+        #news .news-container .news-des .news-bottom .news-title {
+          color: #b7b7b7;
+          font-size: 18px;
+          margin-bottom: 20px; }
+        #news .news-container .news-des .news-bottom .news-time {
+          color: #a7a9ac; }
+        #news .news-container .news-des .news-bottom:hover {
+          background-color: #0072c6;
+          text-decoration: none; }
+          #news .news-container .news-des .news-bottom:hover .news-title, #news .news-container .news-des .news-bottom:hover .news-time {
+            color: #fff; }
+
+/*# sourceMappingURL=index.css.map */

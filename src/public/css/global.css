@@ -1,0 +1,113 @@
+@import url(../../vendor/bootstrap/dist/css/bootstrap.css);
+.down-arrow, .gear, .light, .gold, .broad, .auncel, .pen, .arrow-up, .arrow-down, .close-icon {
+  display: inline-block;
+  background: url(../images/index-icons.png) no-repeat; }
+
+.down-arrow {
+  width: 107px;
+  height: 24px;
+  background-position: 0 0; }
+
+.gear {
+  width: 32px;
+  height: 32px;
+  background-position: -120px 0; }
+
+.light {
+  width: 39px;
+  height: 41px;
+  background-position: -200px 0; }
+
+.gold {
+  width: 39px;
+  height: 34px;
+  background-position: -160px 0; }
+
+.broad {
+  width: 34px;
+  height: 23px;
+  background-position: -320px 0; }
+
+.auncel {
+  width: 30px;
+  height: 27px;
+  background-position: -250px 0; }
+
+.pen {
+  width: 28px;
+  height: 22px;
+  background-position: -290px 0; }
+
+.arrow-up, .arrow-down {
+  width: 26px;
+  height: 13px; }
+
+.arrow-up {
+  background-position: -400px 0; }
+
+.arrow-down {
+  background-position: -400px -20px; }
+
+.close-icon {
+  width: 25px;
+  height: 23px;
+  background-position: -430px 0; }
+
+#yx-header {
+  padding: 15px 0;
+  background-color: #fff;
+  border-bottom: 3px solid #2e3092; }
+  #yx-header .yx-header-links {
+    margin-top: 35px;
+    margin-bottom: 0; }
+    #yx-header .yx-header-links li {
+      padding-right: 35px;
+      padding-left: 35px; }
+      #yx-header .yx-header-links li a {
+        color: #3c3e99;
+        font-weight: 600; }
+
+.yx-icon-qq, .yx-icon-wb, .yx-icon-wx {
+  display: inline-block;
+  background: url(../images/footer.png) no-repeat;
+  margin-right: 25px; }
+
+.yx-icon-qq {
+  width: 26px;
+  height: 26px;
+  background-position: -40px -20px; }
+
+.yx-icon-wb {
+  width: 33px;
+  height: 27px;
+  background-position: -70px -20px; }
+
+.yx-icon-wx {
+  width: 32px;
+  height: 26px;
+  background-position: 0 -20px; }
+
+#yx-footer {
+  background-color: #363636; }
+  #yx-footer, #yx-footer a {
+    color: #808080; }
+  #yx-footer .yx-footer-info {
+    border-bottom: 1px solid #959595;
+    padding: 70px 110px 25px; }
+    #yx-footer .yx-footer-info p {
+      line-height: 1.6;
+      margin-bottom: 0; }
+  #yx-footer .yx-footer-cr {
+    padding: 15px 0; }
+
+#big-banner {
+  height: 313px;
+  background: no-repeat center center;
+  border-bottom: 1px solid grey; }
+  #big-banner h1 {
+    line-height: 313px;
+    margin: 0;
+    font-size: 36px;
+    color: #0072c6; }
+
+/*# sourceMappingURL=global.css.map */

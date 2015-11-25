@@ -1,1 +1,0 @@
-"use strict";$(".bxslider").bxSlider({mode:"fade",pager:!1}),$(document).on("mouseenter",".yx-product-name",function(){$(this).siblings(".yx-product-des").show()}).on("mouseleave",".yx-product-des",function(){$(this).hide()});
